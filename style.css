@@ -1,8 +1,34 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #083769; }
+a:hover {
+  color: #083769; }
+
 .button {
   border-radius: 100px;
 }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #083769;
+  border-color: #083769; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #083769;
+  border-color: #083769; }
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -30,19 +56,21 @@ section {
 section h1,
 section h2 {
   font-size: 6em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 section h1 {
-  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-family: "Surveyor SSm A", "Surveyor SSm B";
   font-style: normal;
   font-weight: 800;
-  line-height: .875;
+  /* line-height: .875; */
 }
 section h2 {
-  font-size: 1.75em;
+  font-size: 1.25em;
   font-family: "Gotham SSm A", "Gotham SSm B";
   font-style: normal;
   font-weight: 400;
+  letter-spacing: .5em;
+  text-transform: uppercase;
 }
 section h3 {
   font-size: 1.25em;
@@ -50,9 +78,12 @@ section h3 {
   font-style: normal;
   font-weight: 600;
   margin-bottom: 3.5em;
-  opacity: .75;
 }
-
+section p {
+  font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 400;
+}
 
 /* Intro
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -74,6 +105,15 @@ section h3 {
 .hero {
   background-image: url('images/1.jpg');
   background-size: cover;
+}
+
+/* RSVP
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.rsvp {
+  /* background-image: url('images/1.jpg'); */
+  /* background-size: cover; */
+  background-color: #fdcc29;
+  color: #000;
 }
 
 /* Stay
