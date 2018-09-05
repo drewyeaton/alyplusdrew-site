@@ -1,9 +1,9 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #083769; }
+  color: #4E6282; }
 a:hover {
-  color: #083769; }
+  color: #4E6282; }
 
 .button {
   border-radius: 100px;
@@ -14,8 +14,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #083769;
-  border-color: #083769; }
+  background-color: #4E6282;
+  border-color: #4E6282; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -27,8 +27,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #083769;
-  border-color: #083769; }
+  background-color: #4E6282;
+  border-color: #4E6282; }
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -115,7 +115,7 @@ font-weight: 400;
 .rsvp {
   /* background-image: url('images/1.jpg'); */
   /* background-size: cover; */
-  background-color: #fdcc29;
+  background-color: #FDCF41;
   color: #000;
 }
 .rsvp h1 {
