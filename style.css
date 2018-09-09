@@ -36,17 +36,6 @@ section {
   padding: 8rem 0 7rem;
   text-align: center;
 }
-/* section .heading,
-section .description {
-  margin-bottom: 1.2rem;
-  color: #fff;
-} */
-/* section .heading {
-  font-size: 4em;
-  font-family: "Landmark Inline A", "Landmark Inline B";
-  font-style: normal;
-  font-weight: 400;
-} */
 
 section {
   padding: 6em 4em;
@@ -55,25 +44,23 @@ section {
 }
 section h1,
 section h2 {
-  font-size: 6em;
-  /* text-transform: uppercase; */
+  font-size: 3.25em;
 }
 section h1 {
   font-family: "Surveyor SSm A", "Surveyor SSm B";
   font-style: normal;
   font-weight: 800;
-  /* line-height: .875; */
 }
 section h2 {
-  font-size: 1.25em;
+  font-size: .875em;
   font-family: "Gotham SSm A", "Gotham SSm B";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: .5em;
   text-transform: uppercase;
 }
 section h3 {
-  font-size: 1.25em;
+  font-size: .875em;
   font-family: "Idlewild SSm A", "Idlewild SSm B";
   font-style: normal;
   font-weight: 600;
@@ -81,33 +68,69 @@ section h3 {
 }
 section p {
   font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media (min-width: 550px) {
+  section h1,
+  section h2 {
+    font-size: 6em;
+  }
+  section h1 {
+    line-height: .925;
+  }
+  section h2 {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+  section h3 {
+    font-size: 1.25em;
+  }
 }
 
 /* Intro
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .intro {
-  padding: 14em 0;
+  padding: 8em 0;
   background-image: url('images/1.jpg');
 }
 .intro h1,
 .intro h2,
 .intro h3 {
   color: white;
+  /* margin-bottom: .25em; */
+}
+.intro h1 {
+  /* margin-bottom: .125em; */
 }
 .intro h3 {
-  margin-bottom: .75em;
+  margin-bottom: .25em;
 }
 .intro p {
   color: white;
+  font-size: .875em;
 }
 
-/* Hero
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.hero {
-  background-image: url('images/1.jpg');
-  background-size: cover;
+@media (min-width: 550px) {
+  .intro {
+    padding: 10em 0;
+    background-position: 0 -5em;
+  }
+  .intro h1,
+  .intro h2,
+  .intro h3 {
+    margin-bottom: .5em;
+  }
+  .intro h1 {
+    margin-bottom: .25em;
+  }
+  .intro h3 {
+    margin-bottom: .75em;
+  }
+  .intro p {
+    font-size: 1em;
+  }
 }
 
 /* RSVP
@@ -119,7 +142,14 @@ font-weight: 400;
   color: #000;
 }
 .rsvp h1 {
-  font-size: 3em;
+  font-size: 2em;
+}
+
+@media (min-width: 550px) {
+  .rsvp h1 {
+    font-size: 3em;
+    line-height: 1.25;
+  }
 }
 
 /* Stay
@@ -134,17 +164,34 @@ font-weight: 400;
 .stay p {
   font-size: .95em;
   color: grey;
-  text-align: left;
+  /* text-align: left; */
 }
 .stay .small {
   font-size: .875em;
+}
+
+@media (min-width: 550px) {
+  .stay p {
+    text-align: left;
+  }
+  .stay h2 {
+    font-size: .875em;
+    font-weight: 600;
+    text-align: left;
+  }
 }
 
 /* Photos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .photos  {
   background-image: url('images/2.jpg');
-  padding-bottom: 66%;
+  padding-bottom: 100%;
+}
+
+@media (min-width: 550px) {
+  .photos  {
+    padding-bottom: 66%;
+  }
 }
 
 /* Registry
@@ -152,18 +199,11 @@ font-weight: 400;
 .registry img  {
   margin-bottom: 1em;
 }
-
-/* .phones {
-  position: relative;
+@media (min-width: 550px) {
+  .registry h2  {
+    font-size: 1em;
+  }
 }
-.phone {
-  position: relative;
-  max-width: 80%;
-  margin: 3rem auto -12rem;
-}
-.phone + .phone {
-  display: none;
-} */
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -191,14 +231,14 @@ font-weight: 400;
 
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.categories {
-  /* background-image: url('images/2.jpg');
-  background-size: cover; */
-  /* color: #fff; */
-}
-.categories .section-description {
+/* .categories {
+  background-image: url('images/2.jpg');
+  background-size: cover;
+  color: #fff;
+} */
+/* .categories .section-description {
   margin-bottom: 4rem;
-}
+} */
 
 /* Bigger than 550 */
 /* @media (min-width: 550px) {
