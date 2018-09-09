@@ -115,7 +115,6 @@ section p {
 @media (min-width: 550px) {
   .intro {
     padding: 10em 0;
-    background-position: 0 -5em;
   }
   .intro h1,
   .intro h2,
